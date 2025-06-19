@@ -12,7 +12,7 @@ const projects = [
     title: "E-Commerce Dashboard",
     description:
       "A comprehensive admin dashboard for managing online store operations with real-time analytics, inventory management, and customer insights.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nopick.jpg?height=400&width=600",
     tech: ["React", "TypeScript", "Tailwind CSS", "Chart.js", "Node.js", "MongoDB"],
     github: "#",
     demo: "#",
@@ -25,7 +25,7 @@ const projects = [
     title: "Social Media Platform",
     description:
       "Modern social networking platform with real-time messaging, story features, advanced privacy controls, and AI-powered content recommendations.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nopick.jpg?height=400&width=600",
     tech: ["Next.js", "Socket.io", "MongoDB", "Tailwind CSS", "Redis", "AWS"],
     github: "#",
     demo: "#",
@@ -38,7 +38,7 @@ const projects = [
     title: "Task Management Tool",
     description:
       "Collaborative project management application with Kanban boards, team collaboration, progress tracking, and automated workflow management.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nopick.jpg?height=400&width=600",
     tech: ["React", "Redux Toolkit", "Express.js", "PostgreSQL", "Material-UI"],
     github: "#",
     demo: "#",
@@ -51,7 +51,7 @@ const projects = [
     title: "Weather Forecast App",
     description:
       "Beautiful weather application with detailed forecasts, interactive maps, location-based recommendations, and severe weather alerts.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nopick.jpg?height=400&width=600",
     tech: ["Vue.js", "Weather API", "CSS3", "Chart.js", "PWA", "Service Workers"],
     github: "#",
     demo: "#",
@@ -64,7 +64,7 @@ const projects = [
     title: "Creative Portfolio",
     description:
       "Award-winning developer portfolio with stunning animations, dark mode support, optimized performance, and accessibility features.",
-    image: "/placeholder.svg?height=400&width=600",
+    image: "/nopick.jpg?height=400&width=600",
     tech: ["Next.js", "Tailwind CSS", "Framer Motion", "TypeScript", "Vercel"],
     github: "#",
     demo: "#",
@@ -254,7 +254,7 @@ export default function Projects() {
                     {/* Project Image */}
                     <div className="relative h-64 lg:h-80 overflow-hidden">
                       <Image
-                        src={project.image || "/placeholder.svg"}
+                        src={project.image || "/nopick.jpg"}
                         alt={project.title}
                         fill
                         className="object-cover transition-transform duration-700 group-hover:scale-110"

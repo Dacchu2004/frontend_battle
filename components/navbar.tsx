@@ -50,7 +50,7 @@ export default function Navbar() {
           onClick={() => scrollToSection("home")}
           className="text-2xl lg:text-3xl font-black text-blue-600 dark:text-blue-400 hover:scale-105 transition-transform duration-300"
         >
-          John<span className="text-gray-800 dark:text-white">Doe</span>
+          Dac<span className="text-gray-800 dark:text-white">chu!</span>
         </button>
 
         {/* Desktop Menu */}

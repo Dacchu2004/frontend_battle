@@ -198,7 +198,7 @@ export default function Hero() {
         >
           <h1 className="text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-black mb-6 leading-tight">
             <span className="bg-clip-text text-transparent bg-gradient-to-r from-gray-900 via-blue-600 to-purple-600 dark:from-white dark:via-blue-400 dark:to-purple-400">
-              John Doe
+              Dacchu
             </span>
           </h1>
         </div>

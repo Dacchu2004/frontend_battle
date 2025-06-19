@@ -7,63 +7,63 @@ import { Quote, Star, ChevronLeft, ChevronRight } from "lucide-react"
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
+    name: "Sarah",
     role: "Product Manager",
     company: "TechCorp Inc.",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/nopick.jpg?height=100&width=100",
     rating: 5,
     quote:
-      "Working with John was an absolute pleasure. He delivered a stunning website that exceeded our expectations and helped increase our conversion rate by 30%. His attention to detail is remarkable.",
+      "Working with Dacchu was an absolute pleasure. He delivered a stunning website that exceeded our expectations and helped increase our conversion rate by 30%. His attention to detail is remarkable.",
   },
   {
     id: 2,
-    name: "Michael Chen",
+    name: "Michael",
     role: "Startup Founder",
     company: "InnovateLab",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/nopick.jpg?height=100&width=100",
     rating: 5,
     quote:
-      "John transformed our vision into a beautiful, functional website. The process was smooth, communication was excellent, and the results speak for themselves. Highly recommended!",
+      "Dacchu transformed our vision into a beautiful, functional website. The process was smooth, communication was excellent, and the results speak for themselves. Highly recommended!",
   },
   {
     id: 3,
-    name: "Emily Rodriguez",
+    name: "Emily",
     role: "Marketing Director",
     company: "Digital Solutions",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/nopick.jpg?height=100&width=100",
     rating: 5,
     quote:
       "The developer's expertise in creating responsive, user-friendly interfaces has been invaluable. Our new website has received countless compliments from clients and partners.",
   },
   {
     id: 4,
-    name: "David Kim",
+    name: "David",
     role: "E-commerce Owner",
     company: "StyleHub",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/nopick.jpg?height=100&width=100",
     rating: 5,
     quote:
-      "The redesign of our online store was handled with professionalism and creativity. John delivered a product that significantly improved our user experience and sales.",
+      "The redesign of our online store was handled with professionalism and creativity. Dacchu delivered a product that significantly improved our user experience and sales.",
   },
   {
     id: 5,
-    name: "Lisa Wang",
+    name: "Lisa ",
     role: "Creative Director",
     company: "Design Studio",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/nopick.jpg?height=100&width=100",
     rating: 5,
     quote:
-      "John's ability to bring creative designs to life with clean, efficient code is remarkable. He understands both technical and aesthetic aspects perfectly.",
+      "Dacchu's ability to bring creative designs to life with clean, efficient code is remarkable. He understands both technical and aesthetic aspects perfectly.",
   },
   {
     id: 6,
-    name: "Alex Thompson",
+    name: "Alex ",
     role: "CTO",
     company: "StartupXYZ",
-    image: "/placeholder.svg?height=100&width=100",
+    image: "/nopick.jpg?height=100&width=100",
     rating: 5,
     quote:
-      "Exceptional work quality and professional approach. John delivered our project on time and within budget, with code that's both beautiful and maintainable.",
+      "Exceptional work quality and professional approach. Dacchu delivered our project on time and within budget, with code that's both beautiful and maintainable.",
   },
 ]
 
@@ -317,7 +317,7 @@ export default function Testimonials() {
                             }`}
                           >
                             <Image
-                              src={testimonial.image || "/placeholder.svg"}
+                              src={testimonial.image || "/nopick.jpg"}
                               alt={testimonial.name}
                               width={styling.hasGradient ? 56 : 48}
                               height={styling.hasGradient ? 56 : 48}

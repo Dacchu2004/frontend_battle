@@ -7,7 +7,7 @@ import { ThemeProvider } from "next-themes"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "John Doe - Frontend Developer",
+  title: "Dacchu - Frontend Developer",
   description: "Creative Frontend Developer Portfolio - Modern Web Development",
     generator: 'v0.dev'
 }

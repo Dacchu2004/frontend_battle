@@ -77,8 +77,8 @@ export default function About() {
               {/* Profile image container */}
               <div className="relative w-80 h-80 lg:w-96 lg:h-96 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-2xl transform transition-all duration-500 group-hover:scale-105">
                 <Image
-                  src="/placeholder.svg?height=400&width=400"
-                  alt="John Doe - Frontend Developer"
+                  src="/nopick.jpg?height=400&width=400"
+                  alt="Dacchu - Frontend Developer"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
