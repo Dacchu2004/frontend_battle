@@ -5,7 +5,7 @@
 - npm install --legacy-peer-deps
 
 
-## 🛠️ **Technologies & Tools Used**
+##  **Technologies & Tools Used**
 
 ### **Core Framework & Libraries**
 
@@ -29,9 +29,9 @@
 
 ---
 
-## ✨ **Key Features Implemented**
+##  **Key Features Implemented**
 
-### **🎨 Core Design Features**
+### ** Core Design Features**
 
 - **Glassmorphism UI** - Modern frosted glass effects
 - **Gradient Backgrounds** - Dynamic animated gradients
@@ -40,7 +40,7 @@
 - **Smooth Animations** - 60fps transitions and micro-interactions
 
 
-### **🚀 Interactive Components**
+###  **Interactive Components**
 
 #### **1. Advanced Loader**
 
@@ -144,7 +144,7 @@
 
 ---
 
-## 📱 **Responsive Design Features**
+##  **Responsive Design Features**
 
 ### **Breakpoint System**
 
